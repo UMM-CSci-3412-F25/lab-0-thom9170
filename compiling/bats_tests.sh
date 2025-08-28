@@ -1,4 +1,4 @@
-#!/usr/bin/env bats
+#!/usr/sbin/env bats
 
 load '../test/test_helper/bats-support/load'
 load '../test/test_helper/bats-assert/load'
