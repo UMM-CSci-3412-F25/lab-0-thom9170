@@ -1,4 +1,4 @@
-#!usr/sbin/env bash
+#!/usr/sbin/env bash
 
 
 NUM=$1
@@ -16,7 +16,7 @@ fi
 # Enter the extracted directory
 if [ -d "NthPrime" ]; then
   echo "Directory found: NthPrime, continuing."
-  cd NthPrime
+  cd NthPrime || exit 1
 else
   echo "Directory not found after extraction, exiting."
   exit 1
